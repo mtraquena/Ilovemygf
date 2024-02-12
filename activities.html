@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Activities</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #FF9494;
+		}
+		#activityquestion {
+			font-size: 50px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .activity-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>After eating what're we doing?</b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="activate.jpg" alt ="activate">
+			<label><input type="checkbox" name="activities" value ="activate">Activate</label>
+		</div>
+		<div class="activity-item">
+			<img src="bowling.jpg" alt ="bowling">
+			<label><input type="checkbox" name="activities" value ="bowling">Bowling</label>
+		</div>
+		<div class="activity-item">
+			<img src="crock a doodle.webp" alt ="crock a doodle">
+			<label><input type="checkbox" name="activities" value ="crock a doodle">Crock A Doodle</label>
+		</div>
+		<div class="activity-item">
+			<img src="movies.webp" alt ="movies">
+			<label><input type="checkbox" name="activities" value ="movies">Movies</label>
+		</div>
+		<div class="activity-item">
+			<img src="rec room.webp" alt ="rec room">
+			<label><input type="checkbox" name="activities" value ="rec room">Rec Room</label>
+		</div>
+		<div class="activity-item">
+			<img src="build legos.jpg" alt ="legos">
+			<label><input type="checkbox" name="activities" value ="legos">Legos</label>
+		</div>
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">Click one last time</button>
+</body>
+</html>
