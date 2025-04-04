@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dessert</title>
+	<style>
+		body {
+			text-align: center;
+			margin-top: 30px;
+			font-family: courier;
+			background-color: #FFF5E4;
+			color: #FF9494;
+		}
+		#flowerquestion {
+			font-size: 50px;
+			margin-bottom: 30px;
+			font-weight: bold;
+		}
+		.flower-item {
+			display: inline-table;
+			margin: 10px;
+			vertical-align: top;
+			color: #FF9494;
+		}
+		.flower-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+		.flower-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id = "flowerquestion"> What about flowers?</div>
+	
+	<div class = "flower-selection">
+		<div class = "flower-item">
+			<img src = "icecream.jpg" alt ="ice cream">
+			<label><input type="checkbox" name="dessert" value="ice cream"> Ice cream</label>
+		</div>	
+		<div class = "flower-item">
+			<img src = "bingsu.jpg" alt ="bingsu">
+			<label><input type="checkbox" name="dessert" value="bingsu"> Bingsu</label>
+		</div>	
+		<div class = "flower-item">
+			<img src = "halo-halo.jpg" alt ="halo-halo">
+			<label><input type="checkbox" name="dessert" value="halo-halo"> Halo-Halo</label>
+		</div>	
+		<div class = "flower-item">
+			<img src = "mochi donuts.webp" alt ="mochi donut">
+			<label><input type="checkbox" name="dessert" value="mochi donut"> Mochi Donuts</label>
+		</div>	
+		<div class = "flower-item">
+			<img src = "cheesecake.webp" alt ="cheesecake">
+			<label><input type="checkbox" name="dessert" value="cheesecake"> Cheesecake</label>
+		</div>	
+		<div class = "flower-item">
+			<img src = "mango sticky rice.jpg" alt ="mango sticky rice">
+			<label><input type="checkbox" name="dessert" value="mango sticky rice"> Mango sticky rice</label>
+		</div>	
+	</div>
+	<button class = "button" onclick="location.href='activities.html'">Press again here gorgeous</button>
+
+</body>
+</html>
